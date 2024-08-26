@@ -36,7 +36,7 @@ public class VCardController : Controller
                 Country = model.Country
             };
 
-            return RedirectToAction("Index", vCard);
+            return RedirectToAction("GenerateQr", vCard);
         }
 
         return View(model);
@@ -60,7 +60,6 @@ public class VCardController : Controller
         string fileName = $"{model.Id}.jpg";
         string filePath = Path.Combine(images, fileName);
 
-        // Save the image
         qrCodeWithLogo.SaveAsImage(filePath);
 
         model.QrCode = $"/assets/images/{fileName}";

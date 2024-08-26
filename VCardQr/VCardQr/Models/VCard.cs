@@ -1,4 +1,6 @@
-﻿namespace VCardQr.Models;
+﻿using System.Text;
+
+namespace VCardQr.Models;
 
 public class VCard
 {
@@ -19,37 +21,35 @@ public class VCard
 
     public string GenerateVCard()
     {
+        var vCard = new StringBuilder();
+        vCard.AppendLine("BEGIN:VCARD");
+        vCard.AppendLine("VERSION:3.0");
+        vCard.AppendLine($"FN:{FirstName} {LastName}");
+        vCard.AppendLine($"N:{LastName};{FirstName};;;");
+        vCard.AppendLine($"ORG:{Company}");
+        vCard.AppendLine($"TITLE:{Job}");
+        vCard.AppendLine($"EMAIL:{Email}");
+        vCard.AppendLine($"TEL;TYPE=CELL:{Mobile}");
+        vCard.AppendLine($"TEL;TYPE=HOME:{Phone}");
+        vCard.AppendLine($"TEL;TYPE=FAX:{Fax}");
+        vCard.AppendLine($"ADR:;;{Street};{City};;{Country}");
+        vCard.AppendLine($"PHOTO;VALUE=URL:{QrCode}");
+        vCard.AppendLine("END:VCARD");
 
-        #region Old
-        //var vc = new StringBuilder();
-        //vc.AppendLine("BEGIN:VCARD");
-        //vc.AppendLine("VERSION:3.0");
-        //vc.AppendLine($"FN:{vcard.FirstName} {vcard.LastName}");
-        //vc.AppendLine($"N:{vcard.LastName};{vcard.FirstName};;;");
-        //vc.AppendLine($"ORG:{vcard.Company}");
-        //vc.AppendLine($"TITLE:{vcard.Job}");
-        //vc.AppendLine($"TEL;TYPE=CELL:{vcard.Mobile}");
-        //vc.AppendLine($"TEL;TYPE=WORK,VOICE:{vcard.Phone}");
-        //vc.AppendLine($"TEL;TYPE=FAX:{vcard.Fax}");
-        //vc.AppendLine($"EMAIL;TYPE=PREF,INTERNET:{vcard.Email}");
-        //vc.AppendLine($"ADR;TYPE=WORK:;;{vcard.Street};{vcard.State};{vcard.Zip};{vcard.Country}");
-        //vc.AppendLine($"URL:{vcard.Website}");
-        //vc.AppendLine("END:VCARD");
+        return vCard.ToString();
 
-        //return vc.ToString(); 
-        #endregion
-        return $@"BEGIN:VCARD
-            VERSION:3.0
-            N:{FirstName}
-            FN:{LastName}
-            EMAIL:{Email}
-            TEL;TYPE=CELL:{Mobile}
-            TEL;TYPE=WORK,VOICE:{Phone}
-            ORG:{Company}
-            TITLE:{Job}
-            TEL;TYPE=FAX:{Fax}
-            ADR;TYPE=WORK:;;{Street};{City};{Country}
-            END:VCARD".Trim();
+        //return $@"BEGIN:VCARD
+        //    VERSION:3.0
+        //    N:{FirstName}
+        //    FN:{LastName}
+        //    EMAIL:{Email}
+        //    TEL;TYPE=CELL:{Mobile}
+        //    TEL;TYPE=WORK,VOICE:{Phone}
+        //    ORG:{Company}
+        //    TITLE:{Job}
+        //    TEL;TYPE=FAX:{Fax}
+        //    ADR;TYPE=WORK:;;{Street};{City};{Country}
+        //    END:VCARD".Trim();
 
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VCardQr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52aac694546d6b74d80c6d3e81bbc0ae5e427dbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("VCardQr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VCardQr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

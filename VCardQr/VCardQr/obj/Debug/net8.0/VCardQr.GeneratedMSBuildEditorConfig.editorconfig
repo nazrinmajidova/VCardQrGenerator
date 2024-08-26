@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VCardQr
 build_property.RootNamespace = VCardQr
-build_property.ProjectDir = D:\Back-End\VCardQr\VCardQr\
+build_property.ProjectDir = C:\Users\Lenovo\Desktop\VCardQrGenerator\VCardQr\VCardQr\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Back-End\VCardQr\VCardQr
+build_property.MSBuildProjectDirectory = C:\Users\Lenovo\Desktop\VCardQrGenerator\VCardQr\VCardQr
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/Home/Index.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/Home/Privacy.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/Shared/Error.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/VCard/Index.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/VCard/GenerateQr.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkNhcmRcR2VuZXJhdGVRci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/VCard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkNhcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/VCard/ShowDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVkNhcmRcU2hvd0RldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Back-End/VCardQr/VCardQr/Views/_ViewImports.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/_ViewStart.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Back-End/VCardQr/VCardQr/Views/Shared/_Layout.cshtml]
+[C:/Users/Lenovo/Desktop/VCardQrGenerator/VCardQr/VCardQr/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-iajpxs23ta

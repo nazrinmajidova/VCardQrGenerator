@@ -5055,11 +5055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Back-End\\VCardQr\\VCardQr\\VCardQr.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\VCardQrGenerator\\VCardQr\\VCardQr\\VCardQr.csproj",
       "projectName": "VCardQr",
-      "projectPath": "D:\\Back-End\\VCardQr\\VCardQr\\VCardQr.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\VCardQrGenerator\\VCardQr\\VCardQr\\VCardQr.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Back-End\\VCardQr\\VCardQr\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\VCardQrGenerator\\VCardQr\\VCardQr\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
