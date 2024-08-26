@@ -1,0 +1,37 @@
+﻿@model VCardQr.Models.VCard
+
+@{
+    ViewData["Title"] = "VCard Details";
+}
+
+<h2>VCard Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">@Model.FirstName @Model.LastName</h4>
+
+        <p class="card-text">
+            <strong>Mobile:</strong> @Model.Mobile <br />
+            <strong>Phone:</strong> @Model.Phone <br />
+            <strong>Fax:</strong> @Model.Fax <br />
+            <strong>Email:</strong> @Model.Email <br />
+            <strong>Company:</strong> @Model.Company <br />
+            <strong>Job:</strong> @Model.Job <br />
+            <strong>Street:</strong> @Model.Street <br />
+            <strong>City:</strong> @Model.City <br />
+            <strong>Country:</strong> @Model.Country
+        </p>
+
+        <h5>QR Code:</h5>
+        @if (!string.IsNullOrEmpty(Model.QrCode))
+        {
+            <img src="@Model.QrCode" alt="QR Code for VCard" />
+        }
+        else
+        {
+            <p>No QR Code generated yet.</p>
+        }
+
+        <a href="@Url.Action("Index", "VCard")" class="btn btn-primary mt-3">Back to VCard Creation</a>
+    </div>
+</div>
