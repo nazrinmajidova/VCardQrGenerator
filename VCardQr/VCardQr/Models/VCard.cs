@@ -38,18 +38,7 @@ public class VCard
 
         return vCard.ToString();
 
-        //return $@"BEGIN:VCARD
-        //    VERSION:3.0
-        //    N:{FirstName}
-        //    FN:{LastName}
-        //    EMAIL:{Email}
-        //    TEL;TYPE=CELL:{Mobile}
-        //    TEL;TYPE=WORK,VOICE:{Phone}
-        //    ORG:{Company}
-        //    TITLE:{Job}
-        //    TEL;TYPE=FAX:{Fax}
-        //    ADR;TYPE=WORK:;;{Street};{City};{Country}
-        //    END:VCARD".Trim();
+      
 
     }
 }
